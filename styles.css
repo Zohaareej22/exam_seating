@@ -1,0 +1,117 @@
+/* Resetting body background color to white */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff; /* White background */
+}
+
+/* Header styling */
+header {
+  background-color:  #f1f1f1; /* White header */
+  color: #676663; /* Dark gray text */
+  text-align: center;
+  padding: 20px;
+  border-bottom: 1px solid #d5cfc3; /* Light gray border */
+}
+
+/* Sidebar Styling */
+.sidebar {
+  background-color: #f1f1f1; /* Light gray background */
+  padding: 20px;
+  width: 220px;
+  height: 100vh;
+  position: fixed;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 15px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #676663; /* Dark gray links */
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Active link styling */
+.sidebar ul li a.active {
+  color: #3b3a38; /* Light highlight color for active link */
+}
+
+/* Main content container */
+.container {
+  margin-left: 240px; /* Adjusted to fit the sidebar */
+  padding: 20px;
+  background-color: #ffffff; /* White background */
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #d5cfc3; /* Light gray border */
+}
+
+th {
+  background-color: #efede6; /* Off-white background for table headers */
+  color: #676663; /* Dark gray text */
+}
+
+/* Button Styling */
+button {
+  padding: 10px 20px;
+  background-color: #676663; /* Dark gray button */
+  color: #ffffff; /* White text */
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #efede6; /* Highlight color on hover */
+  color: #676663; /* Dark gray text on hover */
+}
+
+/* Footer Styling */
+footer {
+  background-color: #ffffff; /* White footer */
+  text-align: center;
+  padding: 10px;
+  color: #676663; /* Dark gray footer text */
+  border-top: 1px solid #d5cfc3; /* Light gray border */
+}
+
+/* Make the footer fixed at the bottom */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f1f1f1;  /* Light gray background */
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  margin: 0;
+  padding-bottom: 50px;  /* Make space for the fixed footer */
+}
+
+.container {
+  margin-bottom: 50px;  /* Add space below the content to ensure it doesn't overlap with the footer */
+}

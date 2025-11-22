@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Export | Exam Seating Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Exam Seating Management System</h1>
+    </header>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <ul>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="departments.html">Departments</a></li>
+            <li><a href="students.html">Students</a></li>
+            <li><a href="rooms.html">Rooms</a></li>
+            <li><a href="seating-plan.html">Seating Plan</a></li>
+            <li><a href="export.html" class="active">Export</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <section class="page-content">
+            <h2>Export Reports</h2>
+
+            <form>
+                <label for="reportSelect">Select Report</label>
+                <select id="reportSelect">
+                    <option value="seating-plan">Seating Plan</option>
+                    <option value="students">Students</option>
+                    <option value="departments">Departments</option>
+                </select>
+
+                <button type="submit">Export</button>
+            </form>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Exam Seating System. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
